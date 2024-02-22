@@ -1,0 +1,86 @@
+$color_1: #FFF6E1;
+$color_2: rgb(255,255,255);
+$color_3: rgb(255, 255, 255);
+$color_4: rgb(163, 217, 246);
+$font-family_1: normal normal normal 16px/1.4em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
+$font-family_2: open sans,sans-serif;
+$font-family_3: 'sans' normal normal normal 34px/1.4em 'open sans condensed',sans-serif;
+$font-family_4: normal normal normal 34px/1.4em 'sans',sans-serif;
+$font-family_5: 'Oswald',oswald-medium,oswald,sans-serif;
+$font-family_6: sans,sans-serif;
+$background-color_1: #033444;
+
+@font-face {
+	font-family: 'Oswald';
+	src: url('../../../assets/fonts/New folder/Oswald-VariableFont_wght.ttf') format('woff2'),;
+}
+@font-face {
+	font-family: 'sans';
+	src: url('../../../assets/fonts/OpenSans-VariableFont_wdth,wght.ttf');
+}
+.bgOfSection {
+	background-color: $background-color_1;
+}
+.heading {
+	color: $color_1;
+	font-size: 48px;
+	font-family: $font-family_1;
+}
+.headingOfText {
+	font-size: 32px;
+	font-family: $font-family_2;
+	color: $color_2;
+	font-weight: 700 !important;
+}
+.pOfText {
+	font-size: 20px;
+	text-align: justify !important;
+	color: $color_3;
+	letter-spacing: 0em !important;
+	font-family: $font-family_3;
+}
+.pOfSection {
+	font-size: 20px;
+	text-align: justify !important;
+	font-family: $font-family_4;
+	font-weight: lighter;
+	color: $color_3;
+}
+.readMore {
+	text-decoration: underline;
+	color: $color_4;
+	font-family: $font-family_5;
+	font-size: 34px;
+}
+.imageContainer {
+	width: 453px;
+	height: 331px;
+}
+@media screen and (max-width:500px) {
+	.pOfSection {
+		font-size: 15px !important;
+		font-family: $font-family_6;
+		color: $color_3;
+		letter-spacing: 0em;
+		font-weight: lighter;
+		text-align: justify;
+	}
+}
+@media screen and (min-width: 501px) and (max-width: 1200px) {
+	.resOfSection7 {
+		width: 100% !important;
+		height: auto !important;
+	}
+	.test {
+		justify-content: left !important;
+	}
+}
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
+	.resOfSection7 {
+		width: 50% !important;
+		height: auto !important;
+	}
+	.test {
+		justify-content: left !important;
+	}
+}

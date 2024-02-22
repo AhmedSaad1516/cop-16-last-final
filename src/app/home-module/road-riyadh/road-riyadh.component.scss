@@ -1,0 +1,64 @@
+$color_1: white;
+$color_2: inherit;
+$color_3: #FFF6E1;
+$font-family_1: normal normal normal 34px/1.4em 'Open Sans Condensed', sans-serif;
+$background-color_1: #074D63;
+
+.bgOfSecrion {
+	background-color: $background-color_1;
+	color: $color_1;
+}
+span {
+	font-weight: bold;
+	a {
+		color: $color_2;
+	}
+}
+.headinfOfSection {
+	font-size: 38px;
+	font-weight: bold;
+	color: $color_3;
+}
+p {
+	color: $color_3;
+	font-size: 20px;
+	font-weight: 100;
+	text-align: justify;
+	font-family: $font-family_1 !important;
+}
+.height {
+	height: 100% !important;
+}
+.imageBG {
+	background-size: 100% 150% !important;
+	background-attachment: fixed !important;
+	background-image: url('../../../assets/images/road -section/bg.jpg');
+	height: auto;
+}
+@media screen and (max-width:500px) {
+	p {
+		color: $color_3;
+		font-size: 21px;
+		font-weight: 100;
+		font-family: $font-family_1 !important;
+		width: 311px;
+		padding: 0px;
+		line-height: 1.5;
+		text-align: start !important;
+	}
+	.containerOfP {
+		justify-content: flex-start !important;
+		margin-left: 20px !important;
+	}
+	.headinfOfSection {
+		font-size: 40px;
+		font-weight: bold;
+		color: $color_3;
+		margin-top: 10px;
+		width: 466px;
+		text-align: left;
+	}
+}
+a{
+	border-bottom: 1px solid white;
+}

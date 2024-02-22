@@ -1,0 +1,82 @@
+$font-family_1: normal normal normal 40px/1.4em 'Open Sans Condensed', sans-serif;
+$font-family_2: 'Open Sans Condensed', sans-serif;
+
+@font-face {
+	font-family: 'Open Sans Condensed';
+	src: url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed&display=swap');
+}
+/* Then use it in your CSS */
+html {
+	font-family: $font-family_1 !important;
+}
+body {
+	font-family: $font-family_1 !important;
+}
+h1 {
+	h2 {
+		p {
+			span {
+				h3 {
+					h4 {
+						h5 {
+							h6 {
+								font-family: $font-family_1 !important;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.font-example {
+	font-family: $font-family_2 !important;
+}
+ul {
+	list-style: none;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	&:hover {
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+.owl-carousel {
+	.owl-dots.disabled {
+		display: none !important;
+	}
+	.owl-nav.disabled {
+		display: none !important;
+	}
+	.owl-stage-outer {
+		overflow: hidden;
+		border: none;
+	}
+	.owl-stage {
+		transform: transform(0px, 0px, 0px) !important;
+	}
+}
+.owl-theme {
+	.owl-nav.disabled+.owl-dots {
+		margin-top: 10px;
+		display: none !important;
+	}
+}
+select {
+	&:focus-visible {
+		border: none !important;
+	}
+}
+li {
+	&:focus-visible {
+		border: none !important;
+	}
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

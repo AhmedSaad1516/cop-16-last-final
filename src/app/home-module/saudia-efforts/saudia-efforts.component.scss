@@ -1,0 +1,65 @@
+$color_1: #FFF6E1;
+$color_2: white;
+$color_3: rgb(255, 255, 255);
+$color_4: rgb(163, 217, 246);
+$font-family_1: "sans" ,sans-serif;
+$font-family_2: sans,sans-serif;
+$font-family_3: 'Oswald',oswald-medium,oswald,sans-serif;
+$background-color_1: #074D63;
+
+.bgOfSection {
+	background-color: $background-color_1;
+	margin-top: -48px;
+}
+.images {
+	height: 100% !important;
+}
+.headingOfSection {
+	font-size: 48px;
+	font-family: $font-family_1;
+	color: $color_1;
+	line-height: normal;
+	font-weight: 800;
+}
+.headingOfText {
+	font-size: 32px;
+	color: $color_2;
+	font-weight: 700;
+}
+.pOfSection {
+	font-size: 15px !important;
+	font-family: $font-family_2;
+	color: $color_3;
+	letter-spacing: 0em;
+	font-weight: lighter;
+	text-align: justify;
+}
+.goAnchor {
+	text-decoration: underline;
+	color: $color_4;
+	font-family: $font-family_3;
+	font-size: 34px;
+}
+.sectionWidth {
+	width: 100%;
+	height: 100%;
+}
+.imagePos {
+	display: flex;
+	flex-direction: row-reverse !important;
+}
+.alignCardInfo {
+	display: flex;
+	flex-wrap: wrap !important;
+	align-items: stretch;
+}
+.imageWidth {
+	width: 434px;
+	height: 409px;
+}
+@media screen and (min-width: 501px) and (max-width: 991px) {
+	.resOfSection7 {
+		width: 100% !important;
+		height: auto !important;
+	}
+}
